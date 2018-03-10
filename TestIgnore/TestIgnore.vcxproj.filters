@@ -17,5 +17,9 @@
   <ItemGroup>
     <None Include="TestIgnore.ino" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <ClInclude Include="__vm\.TestIgnore.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
